@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Aesthetic Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: black;
+}
+
+header {
+ 
+  background-image: url("https://media.istockphoto.com/id/1052007710/vector/horizontal-abstract-holographic-texture-design-for-pattern-and-background.jpg?s=612x612&w=0&k=20&c=F7WUeIXK-kipsDMNa82tWCb5N-i2d0OGc52Cl6C3uWo=");
+  background-size: cover;
+  padding: 40px;
+
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #DF928E;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+main {
+   max-width: 1500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-image: url("https://chasingdaisiesblog.com/wp-content/uploads/2020/10/ae19716f146c6127a6cb5e23bc7ee1bf-512x910.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  background-color: #f8e8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  align: center;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font: times-new-roman;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+<body>
+  <header>
+    <div class="intro">
+      <img src="your_picture.jpg" alt="Your Picture">
+      <h1>Hi! Pleased to meet you. </h1>
+      <p>I am Disha, and this is my portfolio, a work in progress. :) </p>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main> <center>
+    <section class="content">
+      <h2>About Me</h2>
+      <p>Add your detailed information about yourself here.</p>
+    </section> </center>
+  </main>
+  <footer>
+    <p>© 2023 My Aesthetic Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
